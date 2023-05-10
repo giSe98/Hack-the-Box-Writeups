@@ -18,6 +18,6 @@
 | Windows | Forest | 14 JULY 2022 | [Forest](Forest/README.md) | Easy |
 | Linux | Nunchucks | 14 JULY 2022 | [Nunchucks](Nunchucks/README.md) | Easy |
 | Linux | Precious | 4 MAY 2023 | [Precious](Precious/README.md) | Easy |
-| Linux | Soccer | 9TH MAY 2023 | [Soccer](Soccer/README.md) | Easy |
+| Linux | Soccer | 9 MAY 2023 | [Soccer](Soccer/README.md) | Easy |
 
 </div>
