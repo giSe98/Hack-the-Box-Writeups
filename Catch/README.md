@@ -500,7 +500,7 @@ Con le credenziali trovate in precedenza, ci autentichiamo su `http://status.cat
 In *Settings* abbiamo anche la versione di *Cachet* -> cercando su Google ho trovato un [artcolo](https://blog.sonarsource.com/cachet-code-execution-via-laravel-configuration-injection) nel quale parla di RCE e ci indica anche come effettuare il leak della password del DB:
 
 <p align="center">
-  <img src="Images/rce.png" />
+  <img src="Images/RCE.png" />
 </p>
 
 Facendo *Save* e ricaricando la pagina avremo la password:
