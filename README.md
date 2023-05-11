@@ -19,5 +19,5 @@
 | Linux | Nunchucks | 14 JULY 2022 | [Nunchucks](Nunchucks/README.md) | Easy |
 | Linux | Precious | 4 MAY 2023 | [Precious](Precious/README.md) | Easy |
 | Linux | Soccer | 9 MAY 2023 | [Soccer](Soccer/README.md) | Easy |
-
+| Linux | Stocker | 10 MAY 2023 | [Stocker](Stocker/README.md) | Easy |
 </div>
