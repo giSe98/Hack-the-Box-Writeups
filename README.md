@@ -1,4 +1,4 @@
-# Writeup-HTB-Machines
+<h1 align="center"> Writeup-HTB-Machines </h1>
 
 <div align="center">
 
@@ -20,4 +20,7 @@
 | Linux | Precious | 4 MAY 2023 | [Precious](Precious/README.md) | Easy |
 | Linux | Soccer | 9 MAY 2023 | [Soccer](Soccer/README.md) | Easy |
 | Linux | Stocker | 10 MAY 2023 | [Stocker](Stocker/README.md) | Easy |
+| Linux | Inject | 11 MAY 2023 | [Inject](Inject/README.md) | Easy |
+| Linux | Busqueda | 12 MAY 2023 | [Busqueda](Busqueda/README.md) | Easy |
+
 </div>
