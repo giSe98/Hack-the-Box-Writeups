@@ -23,5 +23,6 @@
 | Linux | Inject | 11 MAY 2023 | [Inject](Inject/README.md) | Easy |
 | Linux | Busqueda | 12 MAY 2023 | [Busqueda](Busqueda/README.md) | Easy |
 | Linux | Agile | 16 MAY 2023 | [Agile](Agile/README.md) | Medium |
+| Linux | MonitorsTwo | 5 AUG 2023 | [MonitorsTwo](MonitorsTwo/README.md) | Easy |
 
 </div>
