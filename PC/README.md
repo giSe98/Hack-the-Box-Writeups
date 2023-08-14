@@ -1,4 +1,4 @@
-# MonitorsTwo
+# PC
 * **POINTS**: 20
 * **USER RATING**: Easy
 * **OPERATING SYSTEM**: Linux
