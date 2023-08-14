@@ -24,6 +24,6 @@
 | Linux | Busqueda | 12 MAY 2023 | [Busqueda](Busqueda/README.md) | Easy |
 | Linux | Agile | 16 MAY 2023 | [Agile](Agile/README.md) | Medium |
 | Linux | MonitorsTwo | 4 AUG 2023 | [MonitorsTwo](MonitorsTwo/README.md) | Easy |
-| Linux | MonitorsTwo | 12 AUG 2023 | [PC](PC/README.md) | Easy |
+| Linux | PC | 12 AUG 2023 | [PC](PC/README.md) | Easy |
 
 </div>
